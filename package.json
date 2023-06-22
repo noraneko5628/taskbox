@@ -29,7 +29,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "chromatic": "npx chromatic --project-token=chpt_207091b7ecf46ca"
+    "chromatic": "npx chromatic --project-token=chpt_207091b7ecf46ca",
+    "test-storybook": "test-storybook"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.0.22",
@@ -54,5 +55,8 @@
   },
   "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/chromaui/intro-storybook-react-template#readme",
-  "_id": "intro-storybook-react-template@0.2.0"
+  "_id": "intro-storybook-react-template@0.2.0",
+  "msw": {
+    "workerDirectory": "public"
+  }
 }
